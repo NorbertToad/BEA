@@ -1,0 +1,86 @@
+@font-face {
+    font-family: myFont;
+    src: url("medieval.ttf.otf");
+}
+
+body {
+    background-image: url("BookBackground3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: myFont;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.786);
+    font-size: 375%;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-left: 33%;
+    margin-right: 30%;
+    letter-spacing: 50%;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.786);
+    font-size: 125%;
+    font-weight: bolder;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3%;
+    letter-spacing: 12%;
+}
+
+h4 {
+    color: rgba(0, 0, 0, 0.786);
+    font-size: 125%;
+    font-weight: bolder;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: left-center;
+    letter-spacing: 12%;
+}
+
+h3 {
+    color: rgba(0, 0, 0, 0.845);
+    font-size: 250%;
+    font-weight: bolder;
+    margin-left: 23%;
+    margin-right: 20%;
+    letter-spacing: 5px;
+    margin-top: 4%;
+}
+
+#gallery {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+h2 {
+    color: rgba(0, 0, 0, 0.845);
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 12px;
+}
+
+#pictures {
+    line-height: 0;
+    column-count :3; 
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+#pictures img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:5px; 
+    filter: sepia(85%);
+    transition: filter 1s;
+ }
+
+ #pictures img:hover {
+    filter:none;
+ }
